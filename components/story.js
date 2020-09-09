@@ -2,7 +2,7 @@ import Dots from './dots'
 
 const story = () => {
   return (
-    <section className="flex ml-48 mt-4">
+    <section className="flex mt-20 mb-32">
       <div className="relative mr-2">
         <img src="/images/story_blob.svg" alt="Our Story" className="absolute z-0 transform -translate-x-48" />
         <img src="images/story.png" alt="Our Story" className="hero z-10 relative" />

@@ -2,7 +2,7 @@ import Dots from './dots'
 
 const hero = () => {
   return (
-    <section className="relative z-10 ml-48 mt-5 flex items-center justify-between">
+    <section className="relative z-10 mt-5 flex items-center justify-between">
       <div className="relative w-2/5">
         <h2 className="text-4xl">Build Your Body &</h2>
         <h1 className="text-5xl font-bold"><span className="pb-2 border-b-4 border-red-600">Sh</span>ape Yourself!</h1>
@@ -17,12 +17,12 @@ const hero = () => {
         </button>
       </div>
       <div className="relative">
-        <img src="images/hero.png" alt="Hero" className="hero z-10 relative transform translate-x-20" />
-        <div className="circle bg-gray-200 rounded-full absolute top-0 left-0 z-0 transform translate-x-48 -translate-y-4"></div>
-        <div className="circle-medium bg-gray-200 rounded-full absolute top-0 left-0 z-0 transform translate-x-10 translate-y-48"></div>
+        <img src="images/hero.png" alt="Hero" className="hero z-10 relative transform translate-x-16" />
+        <div className="circle bg-gray-200 rounded-full absolute top-0 left-0 z-0 transform translate-x-32 -translate-y-2"></div>
+        <div className="circle-medium bg-gray-200 rounded-full absolute top-0 left-0 z-0 transform translate-y-48 translate-x-8"></div>
+        <div className="circle-small bg-red-200 rounded-full absolute bottom-0 left-0 z-0 transform translate-x-16 -translate-y-20"></div>
         <div className="circle-small bg-indigo-400 rounded-full absolute bottom-0 right-0 z-0 transform -translate-y-32"></div>
-        <div className="circle-small bg-red-200 rounded-full absolute bottom-0 left-0 z-0 transform translate-x-20 -translate-y-20"></div>
-        <div className="absolute top-0 left-0 transform -translate-x-10 translate-y-48">
+        <div className="absolute top-0 left-0 transform translate-y-48 -translate-x-12">
           <Dots/>
         </div>
       </div>
