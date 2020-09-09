@@ -8,6 +8,7 @@ import Classes from '../components/classes'
 import Trainers from '../components/trainers'
 import Pricing from '../components/pricing'
 import Feedback from '../components/feedback'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Trainers/>
       <Pricing/>
       <Feedback/>
+      <Footer/>
     </Layout>
   )
 }

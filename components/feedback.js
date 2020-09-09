@@ -3,7 +3,7 @@ import FeedbackForm from './feedbackForm'
 
 const feedback = () => {
   return (
-    <section className="mb-32">
+    <section className="mb-64">
         <h2 className="text-2xl font-bold">
           <span className="pb-4 border-b-4 border-red-600">What</span> People Says About Us?
         </h2>
