@@ -25,3 +25,8 @@
 .hero {
   height: 40rem;
 }
+
+html {
+  overflow-x: hidden;
+}
+  
