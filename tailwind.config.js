@@ -262,6 +262,7 @@ module.exports = {
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
     fontSize: {
+      '2xs': '0.6rem',
       xs: '0.75rem',
       sm: '0.875rem',
       base: '1rem',
@@ -289,6 +290,7 @@ module.exports = {
       ...theme('spacing'),
       full: '100%',
       screen: '100vh',
+      '72': '18rem',
     }),
     inset: {
       '0': '0',
@@ -439,6 +441,7 @@ module.exports = {
       '11/12': '91.666667%',
       full: '100%',
       screen: '100vw',
+      '76': '19rem',
     }),
     zIndex: {
       auto: 'auto',
