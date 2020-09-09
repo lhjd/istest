@@ -6,6 +6,7 @@ import Hero from '../components/hero'
 import Story from '../components/story'
 import Classes from '../components/classes'
 import Trainers from '../components/trainers'
+import Pricing from '../components/pricing'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Story />
       <Classes />
       <Trainers/>
+      <Pricing/>
     </Layout>
   )
 }
