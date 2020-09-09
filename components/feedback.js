@@ -3,7 +3,9 @@ import FeedbackForm from './feedbackForm'
 
 const feedback = () => {
   return (
-    <section className="mb-64">
+    <>
+    <div id="feedback" className="mb-48"></div>
+    <section className="mb-96">
         <h2 className="text-2xl font-bold">
           <span className="pb-4 border-b-4 border-red-600">What</span> People Says About Us?
         </h2>
@@ -13,6 +15,7 @@ const feedback = () => {
           <FeedbackForm />
         </div>
     </section>
+    </>
   );
 }
 

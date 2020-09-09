@@ -2,7 +2,7 @@ import CompanySocialMedia from './company_social_media'
 
 const footer = () => {
   return (
-    <footer className="mt-32 mb-32 relative z-10 flex flex-col items-center">
+    <footer className="mt-32 mb-6 relative z-10 flex flex-col items-center">
       <div className="flex items-center mb-16">
         <div className="w-1/2">
           <div className="w-32 overflow-hidden mb-10">
@@ -67,8 +67,8 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div className="">
-        <p className="text-white text-center">Copyright © 2019 GYM. All rights reserved.</p>
+      <div className="border-t-2 border-white w-full">
+        <p className="text-white text-center py-2">Copyright © 2019 GYM. All rights reserved.</p>
       </div>
     </footer>
   );

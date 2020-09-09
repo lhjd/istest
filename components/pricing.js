@@ -27,22 +27,25 @@ const pricing = () => {
     />));
 
   return (
-    <section className="mb-32 flex flex-col items-center">
-        <h2 className="text-2xl font-bold text-center mb-10">
-          Our<span className="pb-4 border-b-4 border-red-600"> Pric</span>ing
-        </h2>
-        <p className="text-xs w-8/12 text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        <div className="flex items-center mt-10 mb-4">
-          <h3>Annual Plan</h3>
-          <div onClick={togglePlan} className={`flex border w-16 border-gray-500 rounded-full p-1 mx-2 cursor-pointer ${plan === 'annual' ? 'justify-start' : 'justify-end'}`}>
-            <button className="bg-green-400 h-6 w-6 rounded-full focus:outline-none"></button>
+    <>
+      <div id="pricing" className="mb-48"></div>
+      <section className="mb-32 flex flex-col items-center" id="pricing">
+          <h2 className="text-2xl font-bold text-center mb-10">
+            Our<span className="pb-4 border-b-4 border-red-600"> Pric</span>ing
+          </h2>
+          <p className="text-xs w-8/12 text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <div className="flex items-center mt-10 mb-4">
+            <h3>Annual Plan</h3>
+            <div onClick={togglePlan} className={`flex border w-16 border-gray-500 rounded-full p-1 mx-2 cursor-pointer ${plan === 'annual' ? 'justify-start' : 'justify-end'}`}>
+              <button className="bg-green-400 h-6 w-6 rounded-full focus:outline-none"></button>
+            </div>
+            <h3>Monthly Plan</h3>
           </div>
-          <h3>Monthly Plan</h3>
-        </div>
-        <div className="flex">
-          {plans}
-        </div>
-    </section>
+          <div className="flex">
+            {plans}
+          </div>
+      </section>
+    </>
   )
 }
 
