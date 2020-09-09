@@ -7,6 +7,7 @@ import Story from '../components/story'
 import Classes from '../components/classes'
 import Trainers from '../components/trainers'
 import Pricing from '../components/pricing'
+import Feedback from '../components/feedback'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Classes />
       <Trainers/>
       <Pricing/>
+      <Feedback/>
     </Layout>
   )
 }

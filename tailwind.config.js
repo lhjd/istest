@@ -443,6 +443,8 @@ module.exports = {
       screen: '100vw',
       '76': '19rem',
       '80': '20rem',
+      '88': '22rem',
+      '144': '36rem',
     }),
     zIndex: {
       auto: 'auto',
@@ -780,5 +782,5 @@ module.exports = {
     animation: ['responsive'],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/custom-forms'),],
 }
