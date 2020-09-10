@@ -11,7 +11,7 @@ const trainers = () => {
           <h2 className="text-2xl font-bold text-center mb-10">
             Our<span className="pb-4 border-b-4 border-brand-primary"> Train</span>ers
           </h2>
-          <p className="text-xs w-8/12 text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p className="text-xs w-8/12 text-brand-secondary text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
         <div className="flex flex-col">
           <div className="flex flex-col xl:flex-row">

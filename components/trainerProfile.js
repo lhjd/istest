@@ -4,9 +4,9 @@ const trainerProfile = (props) => {
   return (
     <div className="w-76 h-76 p-6 flex flex-col justify-center">
       <h3 className="uppercase font-bold text-brand-primary">{props.name}</h3>
-      <h4 className="text-sm text-gray-600">{props.title}</h4>
+      <h4 className="text-sm text-brand-secondary">{props.title}</h4>
       <hr className="my-2" />
-      <p className="text-2xs text-gray-600">{props.bio}</p>
+      <p className="text-2xs text-brand-secondary">{props.bio}</p>
       <div className="flex items-center mt-3">
         <a 
           href={props.socialMedia.facebook} 

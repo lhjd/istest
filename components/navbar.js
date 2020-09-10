@@ -30,7 +30,7 @@ const navbar = () => {
         <div className="hidden xl:flex md:pt-10 lg:pt-0 items-center relative">
           <img src="/images/logo.png" alt="logo" className="mr-2 h-20 w-20 relative z-10" />
           <h1 className="mr-2 text-3xl font-bold uppercase relative z-10">Power</h1>
-          <div className="h-128 w-128 bg-gray-300 rounded-full absolute z-0 transform -translate-x-56 -translate-y-20"></div>
+          <div className="h-128 w-128 bg-brand-gray300 rounded-full absolute z-0 transform -translate-x-56 -translate-y-20"></div>
         </div>
         <div className="xl:hidden">
           <button onClick={() => setIsOpen(prevState => !prevState)} type="button" className="block text-gray-500 hover:text-white focus:text-white focus:outline-none">

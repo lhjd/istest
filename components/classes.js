@@ -43,7 +43,7 @@ const classes = () => {
             <a href="#" onClick={(e) => filterClassCategory(e, 'women')} className={classCategory === 'women' ? 'mx-2 md:mx-4 pb-2 px-4 border-b-2 border-brand-primary' : 'mx-2 md:mx-4 px-4'}>Womens</a>
           </div>
         </nav>
-        <p className="text-xs mt-10 xl:w-8/12 mb-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p className="text-xs text-brand-secondary mt-10 xl:w-8/12 mb-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         <div className="flex flex-row flex-wrap justify-left">
           {classes}
         </div>

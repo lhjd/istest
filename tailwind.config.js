@@ -24,6 +24,12 @@ module.exports = {
         primary: '#f92524',
         secondary: '#7a839e',
         maroon: '#e91b1a',
+        gray100: '#cccccc',
+        gray200: '#b6b8bd',
+        gray300: '#F4F5FA',
+        green: '#16D800',
+        pink: '#FDDFDF',
+        blue: '#85A4FF',
       },
 
       gray: {
@@ -466,6 +472,7 @@ module.exports = {
       '30': '30',
       '40': '40',
       '50': '50',
+      '-10': '-10',
     },
     gap: theme => theme('spacing'),
     gridTemplateColumns: {
