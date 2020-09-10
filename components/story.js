@@ -4,8 +4,8 @@ const story = () => {
   return (
     <>
       <div id="story" className="mb-10"></div>
-      <section className="flex flex-col lg:flex-row mt-20 mb-32">
-        <div className="relative mr-2">
+      <section className="flex flex-col lg:flex-row xl:mt-20 mb-32">
+        <div className="relative mr-2 hidden xl:block">
           <img src="/images/story_blob.svg" alt="Our Story" className="absolute z-0 transform -translate-x-120 -translate-y-64 xl:translate-y-0 xl:-translate-x-48" />
           <img src="images/story.png" alt="Our Story" className="h-128 xl:h-160 z-10 relative" />
           <div className="absolute top-0 right-0 transform -translate-x-64 xl:translate-x-0 translate-y-20">
