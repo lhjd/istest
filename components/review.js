@@ -1,6 +1,6 @@
 const review = () => {
   return (
-    <div className="w-64 md:w-88 shadow-lg p-4 relative">
+    <div className="w-64 xl:w-88 xl:mr-10 shadow-lg p-4 relative">
       <div className="w-20 overflow-hidden rounded-full absolute transform -translate-y-10">
         <img src="/images/reviewer_1.png" alt="Body Building" className="h-20 w-full object-cover object-top" />
       </div>

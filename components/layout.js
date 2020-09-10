@@ -1,7 +1,7 @@
 function Layout({ children }) {
   return (
   <div className="relative overflow-hidden">
-    <div className="xl:ml-10 lg:ml-48">
+    <div className="xl:ml-48">
       {children}
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846.667 423.333" className="z-0 w-screen hidden md:block absolute bottom-0 left-0">
