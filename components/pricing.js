@@ -41,7 +41,7 @@ const pricing = () => {
             </div>
             <h3>Monthly Plan</h3>
           </div>
-          <div className="flex">
+          <div className="flex flex-col xl:flex-row">
             {plans}
           </div>
       </section>

@@ -7,9 +7,11 @@ module.exports = {
   theme: {
     screens: {
       sm: '640px',
-      md: '768px',
+      // md: '768px',
+      md: '721px',
       lg: '1024px',
-      xl: '1280px',
+      // xl: '1280px',
+      xl: '1200px',
     },
     colors: {
       transparent: 'transparent',
@@ -291,6 +293,8 @@ module.exports = {
       full: '100%',
       screen: '100vh',
       '72': '18rem',
+      '128': '32rem',
+      '160': '40rem',
     }),
     inset: {
       '0': '0',
@@ -445,6 +449,7 @@ module.exports = {
       '76': '19rem',
       '80': '20rem',
       '88': '22rem',
+      '128': '32rem',
       '144': '36rem',
     }),
     zIndex: {
@@ -596,6 +601,9 @@ module.exports = {
       '-1/2': '-50%',
       '1/2': '50%',
       full: '100%',
+      '-120': '-30rem',
+      '-96': '-24rem',
+      '-112': '-28rem',
       '96': '24rem',
       '160': '40rem',
     }),

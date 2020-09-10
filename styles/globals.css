@@ -2,30 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.circle-small {
-  height: 5rem;
-  width: 5rem;
-}
-
-.circle {
-  height: 32rem;
-  width: 32rem;
-}
-
-.circle-medium {
-  height: 16rem;
-  width: 16rem;
-}
-
-.dot {
-  height: 0.5rem;
-  width: 0.5rem;
-}
-
-.hero {
-  height: 40rem;
-}
-
 html {
   overflow-x: hidden;
 }

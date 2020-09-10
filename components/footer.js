@@ -2,24 +2,27 @@ import CompanySocialMedia from './company_social_media'
 
 const footer = () => {
   return (
-    <footer className="mt-32 mb-6 relative z-10 flex flex-col items-center">
-      <div className="flex items-center mb-16">
-        <div className="w-1/2">
-          <div className="w-32 overflow-hidden mb-10">
-            <img src="/images/logo_footer.png" alt="Logo" className="h-32 w-full object-contain object-center" />
+    <footer className="mt-32 relative z-10 flex flex-col items-center bg-red-600 xl:bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846.667 423.333" className="fill-current text-red-600 xl:hidden bg-white">
+          <path d="M0 423.333V190.11S47.01 81.295 123.624 45.71c122.282-56.798 130.846 66.376 339.705 95.574 171.997 24.045 193.724-4.893 274.258-12.466 67.93-6.388 109.08 2.078 109.08 2.078v292.437z" />
+      </svg>
+      <div className="flex flex-col xl:flex-row items-center mb-16 bg-red-600 xl:bg-transparent">
+        <div className="w-4/5 xl:w-1/2 mb-6">
+          <div className="mt-6 w-16 xl:w-32 overflow-hidden mb-4 xl:mb-10">
+            <img src="/images/logo_footer.png" alt="Logo" className="h-16 xl:h-32 w-full object-contain object-center" />
           </div>
           <p className="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
           <CompanySocialMedia />
         </div>
-        <div className="w-1/2">
+        <div className="w-4/5 xl:w-1/2">
           <h2 className="text-2xl font-bold text-white mb-10">
             <span className="pb-4 border-b-4 border-white">Get In</span> Touch
             </h2>
-          <div className="flex">
-            <div className="w-3/5 mr-4">
+          <div className="flex flex-col xl:flex-row">
+            <div className="xl:w-3/5 mr-4 mb-6">
               <h3 className="text-white font-bold mb-4">Address</h3>
               <h4 className="text-white text-xs font-light mb-6 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.917 52.917" className="h-4 w-4 mr-2 text-white fill-current">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.917 52.917" className="h-8 w-8 xl:h-4 xl:w-4 mr-2 text-white fill-current">
                   <path d="M26.457 1.323A18.227 18.227 0 008.249 19.53c0 12.458 16.293 30.75 16.99 31.524a1.65 1.65 0 002.44 0c.693-.773 16.988-19.063 16.988-31.524a18.23 18.23 0 00-18.21-18.208zm0 27.368a9.16 9.16 0 119.16-9.16 9.171 9.171 0 01-9.16 9.16z" />
                 </svg>
                 <span>
@@ -27,7 +30,7 @@ const footer = () => {
                   </span>
               </h4>
               <h4 className="text-white text-xs font-light flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-white fill-current">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 xl:h-4 xl:w-4 xl:mr-2 text-white fill-current">
                   <path d="M7.663 0a7.663 7.663 0 107.663 7.663A7.672 7.672 0 007.663 0zm0 13.652a5.988 5.988 0 115.988-5.988 5.995 5.995 0 01-5.988 5.988z" />
                   <path d="M258.087 143.116V139.9a.65.65 0 10-1.3 0v3.449a.645.645 0 00.187.491l2.418 2.418a.65.65 0 00.918-.918z" transform="translate(-249.761 -135.444)" />
                 </svg>
@@ -36,7 +39,7 @@ const footer = () => {
                   </span>
               </h4>
             </div>
-            <div className="w-2/5">
+            <div className="xl:w-2/5">
               <h3 className="text-white font-bold mb-4">Contact Info</h3>
               <h4 className="text-white text-xs font-light mb-6 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.917 52.917" className="h-4 w-4 mr-2 text-white fill-current">
@@ -67,8 +70,8 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t-2 border-white w-full">
-        <p className="text-white text-center py-2">Copyright © 2019 GYM. All rights reserved.</p>
+      <div className="border-t-2 border-white w-4/5 xl:w-full">
+        <p className="text-xs text-white text-center py-2">Copyright © 2019 GYM. All rights reserved.</p>
       </div>
     </footer>
   );

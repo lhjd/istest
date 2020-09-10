@@ -14,7 +14,7 @@ const trainers = () => {
           <p className="text-xs w-8/12 text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
         <div className="flex flex-col">
-          <div className="flex">
+          <div className="flex flex-col xl:flex-row">
             <TrainerPhoto imgUrl="/images/trainer_1.png" />
             <TrainerProfile 
               name="Amaryan Jackson"
@@ -24,7 +24,7 @@ const trainers = () => {
             />
             <TrainerPhoto imgUrl="/images/trainer_2.png" />
           </div>
-          <div className="flex">
+          <div className="flex flex-col xl:flex-row">
             <TrainerProfile 
                 name="Ilona Jeklin"
                 title="Gymnast"

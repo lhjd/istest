@@ -1,6 +1,6 @@
 const feedbackForm = () => {
   return (
-    <form action="" className="w-144 shadow-lg px-16 py-10 mr-48">
+    <form action="" className="w-full max-w-144 xl:w-144 shadow-lg px-6 mt-10 xl:mt-0 md:px-16 py-10 xl:mr-48">
       <h2 className="text-lg font-bold mb-8">Send us your feedback</h2>
       <input type="text" className="form-input block w-full placeholder-gray-700 font-light mb-4" placeholder="Full Name"/>
       <input type="text" className="form-input block w-full placeholder-gray-700 font-light mb-4" placeholder="Phone No."/>
