@@ -44,7 +44,7 @@ const classes = () => {
           </div>
         </nav>
         <p className="text-xs text-brand-secondary mt-10 xl:w-8/12 mb-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        <div className="flex flex-row flex-wrap justify-left">
+        <div className="flex flex-col -ml-10 xl:ml-0 items-center xl:flex-row xl:justify-left">
           {classes}
         </div>
       </section>
