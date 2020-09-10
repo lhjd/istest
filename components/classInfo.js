@@ -1,6 +1,6 @@
 const classInfo = (props) => {
   return (
-    <div className="w-56 bg-brand-primary text-white rounded-lg overflow-hidden mx-2 mb-4">
+    <div className="w-56 bg-brand-primary text-white rounded-lg overflow-hidden mx-2 mb-4 animate__animated hover:animate__slideOutUp cursor-pointer">
       <img src={`${props.imgUrl}`} alt="Body Building" className="h-56 w-full object-cover object-top" />
       <div className="p-3">
         <h3 className="text-lg mb-2">{props.name}</h3>
