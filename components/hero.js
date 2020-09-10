@@ -5,13 +5,13 @@ const hero = () => {
     <section className="relative mt-5 flex flex-col md:flex-row items-center justify-between">
       <div className="relative w-4/5 xl:w-2/5">
         <h2 className="text-3xl xl:text-4xl">Build Your Body &</h2>
-        <h1 className="text-4xl xl:text-5xl font-bold"><span className="pb-2 border-b-4 border-red-600">Sh</span>ape Yourself!</h1>
+        <h1 className="text-4xl xl:text-5xl font-bold"><span className="pb-2 border-b-4 border-brand-primary">Sh</span>ape Yourself!</h1>
         <p className="mt-4 mb-8">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore architecto beatae vitae dicta sunt explicabo.</p>
         <button className="flex items-center">
-          <div className="text-white bg-red-600 rounded-l h-10 px-5 flex items-center">
+          <div className="text-white bg-brand-primary rounded-l h-10 px-5 flex items-center">
             <h3>Join Today</h3>
           </div>
-          <div className="text-white bg-red-700 rounded-r h-10 px-3 flex items-center">
+          <div className="text-white bg-brand-maroon rounded-r h-10 px-3 flex items-center">
             <img src="/images/arrow-long.svg" alt="Join Today" className="h-3" />
           </div>
         </button>

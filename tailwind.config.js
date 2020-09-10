@@ -23,6 +23,7 @@ module.exports = {
       brand: {
         primary: '#f92524',
         secondary: '#7a839e',
+        maroon: '#e91b1a',
       },
 
       gray: {

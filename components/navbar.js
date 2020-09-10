@@ -17,9 +17,9 @@ const navbar = () => {
       onClick={() => setCurrentSection(e.anchor)}
       className={
         currentSection === e.anchor ? 
-        (e.text === 'Contact Us' ? 'mx-4 px-4 py-2 text-white rounded bg-red-600' : 'mx-4 pb-1 border-b-2 border-red-600')
+        (e.text === 'Contact Us' ? 'mx-4 px-4 py-2 text-white rounded bg-brand-primary' : 'mx-4 pb-1 border-b-2 border-brand-primary')
         : 
-        (e.text === 'Contact Us' ? 'mx-4 px-4 py-2 text-white rounded bg-red-600' : 'mx-4')}
+        (e.text === 'Contact Us' ? 'mx-4 px-4 py-2 text-white rounded bg-brand-primary' : 'mx-4')}
     >{e.text}</a>
   ));
 

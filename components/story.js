@@ -14,7 +14,7 @@ const story = () => {
         </div>
         <div className="w-4/5 text-justify xl:w-2/5 ml-10 relative z-10">
           <h2 className="text-3xl xl:text-2xl font-bold mb-8 mt-12">
-            <span className="pb-4 border-b-4 border-red-600">Our S</span>tory
+            <span className="pb-4 border-b-4 border-brand-primary">Our S</span>tory
           </h2>
           <p className="text-base xl:mr-8 xl:text-xs mb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
           <p className="text-base xl:mr-8 xl:text-xs pb-4 mb-6">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>

@@ -2,11 +2,11 @@ import CompanySocialMedia from './company_social_media'
 
 const footer = () => {
   return (
-    <footer className="mt-32 relative z-10 flex flex-col items-center bg-red-600 xl:bg-transparent">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846.667 423.333" className="fill-current text-red-600 xl:hidden bg-white">
+    <footer className="mt-32 relative z-10 flex flex-col items-center bg-brand-primary xl:bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846.667 423.333" className="fill-current text-brand-primary xl:hidden bg-white">
           <path d="M0 423.333V190.11S47.01 81.295 123.624 45.71c122.282-56.798 130.846 66.376 339.705 95.574 171.997 24.045 193.724-4.893 274.258-12.466 67.93-6.388 109.08 2.078 109.08 2.078v292.437z" />
       </svg>
-      <div className="flex flex-col xl:flex-row items-center mb-16 bg-red-600 xl:bg-transparent">
+      <div className="flex flex-col xl:flex-row items-center mb-16 bg-brand-primary xl:bg-transparent">
         <div className="w-4/5 xl:w-1/2 mb-6">
           <div className="mt-6 w-16 xl:w-32 overflow-hidden mb-4 xl:mb-10">
             <img src="/images/logo_footer.png" alt="Logo" className="h-16 xl:h-32 w-full object-contain object-center" />
