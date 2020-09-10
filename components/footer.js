@@ -22,21 +22,21 @@ const footer = () => {
             <div className="xl:w-3/5 mr-4 mb-6">
               <h3 className="text-white font-bold mb-4">Address</h3>
               <h4 className="text-white text-xs font-light mb-6 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.917 52.917" className="h-8 w-8 xl:h-4 xl:w-4 mr-2 text-white fill-current">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.917 52.917" className="h-4 w-4 xl:h-4 xl:w-4 mr-2 text-white fill-current">
                   <path d="M26.457 1.323A18.227 18.227 0 008.249 19.53c0 12.458 16.293 30.75 16.99 31.524a1.65 1.65 0 002.44 0c.693-.773 16.988-19.063 16.988-31.524a18.23 18.23 0 00-18.21-18.208zm0 27.368a9.16 9.16 0 119.16-9.16 9.171 9.171 0 01-9.16 9.16z" />
                 </svg>
                 <span>
                   123 Madison Street New York City, NY 10001.
                   </span>
               </h4>
-              <h4 className="text-white text-xs font-light flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 xl:h-4 xl:w-4 xl:mr-2 text-white fill-current">
+              <h4 className="text-white text-xs font-light flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 xl:h-4 xl:w-4 xl:mr-2 text-white fill-current">
                   <path d="M7.663 0a7.663 7.663 0 107.663 7.663A7.672 7.672 0 007.663 0zm0 13.652a5.988 5.988 0 115.988-5.988 5.995 5.995 0 01-5.988 5.988z" />
                   <path d="M258.087 143.116V139.9a.65.65 0 10-1.3 0v3.449a.645.645 0 00.187.491l2.418 2.418a.65.65 0 00.918-.918z" transform="translate(-249.761 -135.444)" />
                 </svg>
                 <span>
                   Mon - Fri 08:00 AM - 09:00 PM
-                  </span>
+                </span>
               </h4>
             </div>
             <div className="xl:w-2/5">
